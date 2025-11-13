@@ -1,0 +1,16 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 482 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.4.81:3000/
+[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+18 |  
+19 |  /* Import display + grotesk families via CSS2 (safe for demo) */
+20 |  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Chivo:wght@300;400;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+21 |  
+22 |  @layer base {
